@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+		<record model="ir.ui.view" id="fleet_vehicle_log_contract_form_attachments">
+            <field name="name">fleet.contract.attachments</field>
+            <field name="model">fleet.vehicle.log.contract</field>
+            <field name="inherit_id" ref="fleet.fleet_vehicle_log_contract_form"/>
+            <field name="arch" type="xml">
+
+                <!-- Attachments -->
+				<page string="Generated Recurring Costs" position="after">
+					<page string="Attachments">
+							<field name="attachments_ids" widget="many2many_binary" string="Attach a file"/>
+					</page>
+				</page>
+            </field>
+        </record>
+	</data>
+</openerp>
