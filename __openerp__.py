@@ -4,7 +4,7 @@
     'depends': ['fleet'],
     'author': "Valentin THIRION, AbAKUS it-solutions SARL",
     'website': "http://www.abakusitsolutions.eu",
-    'category': 'Sale',
+    'category': 'Fleet',
     'description': 
     """
     Adds a field for saving attachments inside of a fleet vehicle contract
